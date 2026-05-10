@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 [project]
 name = "daadsp"
 version = "0.1.0"
+dependencies = [
+  "daamath",
+]
 
 [tool.hatch.build.targets.wheel]
 include = ["daadsp.py"]
